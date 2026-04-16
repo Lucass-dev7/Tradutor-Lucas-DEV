@@ -1,2 +1,16 @@
-# Tradutor-Lucas-DEV
-Tradutor desktop com interface moderna em CustomTkinter e conversão de texto em voz.
+# Tradutor Lucas-DEV
+
+O **Tradutor Lucas-DEV** é uma aplicação desktop desenvolvida em Python que oferece uma interface moderna e intuitiva para tradução de textos, contando também com a funcionalidade de conversão de texto em fala (Text-to-Speech).
+
+## Funcionalidades
+
+* **Tradução Instantânea:** Traduz textos de forma rápida utilizando integração com APIs de tradução.
+* **Interface Moderna:** Desenvolvido com `CustomTkinter`, proporcionando um visual elegante e adaptável (Dark/Light mode).
+* **Texto para Fala:** Utiliza a biblioteca `gTTS` para reproduzir o áudio do texto traduzido.
+* **Design Responsivo:** Interface limpa e fácil de utilizar para qualquer nível de utilizador.
+
+##  Tecnologias Utilizadas
+
+* [Python](https://www.python.org/) - Linguagem principal.
+* [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - Para a interface gráfica moderna.
+* [gTTS (Google Text-to-Speech)](https://pypi.org/project/gTTS/) - Para a funcionalidade de voz.
