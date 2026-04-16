@@ -78,11 +78,11 @@ class AppTradutorPro(ctk.CTk):
 
                 pygame.mixer.music.load(filename)
                 pygame.mixer.music.play()
-:t
-                while pygame.mixer.music.get_busy()yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+                while pygame.mixer.music.get_busy:
                     pygame.time.Clock().tick(10)
 
-                pygame.mixer.music.unload(
+                pygame.mixer.music.unload()
                 if os.path.exists(filename):
                     os.remove(filename)
             except Exception as e:
