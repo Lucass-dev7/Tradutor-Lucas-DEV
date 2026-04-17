@@ -14,3 +14,5 @@ O **Tradutor Lucas-DEV** é uma aplicação desktop desenvolvida em Python que o
 * [Python](https://www.python.org/) - Linguagem principal.
 * [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - Para a interface gráfica moderna.
 * [gTTS (Google Text-to-Speech)](https://pypi.org/project/gTTS/) - Para a funcionalidade de voz.
+* 
+
